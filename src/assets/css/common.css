@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+/* skip 메뉴 */
+#skip {
+  position: relative;
+  z-index: 100000;
+}
+
+#skip a {
+  background: #000;
+  color: #fff;
+  position: absolute;
+  padding: 20px 40px;
+  left: -400px;
+  top: 5px;
+}
+
+#skip a:active,
+#skip a:focus {
+  left: 5px;
+}
+html {
+  background: #f2f2f2;
+}
+/* font */
+.theramy {
+  font-family: "Theramy";
+  font-weight: normal;
+}
+
+.score {
+  font-family: "SCoreDream";
+  font-weight: 300;
+}
+
+.poppins {
+  font-family: "Poppins";
+  font-weight: 800;
+}
+
+/* 배경 */
+.black {
+  background-color: #000;
+}
+
+.white {
+  background-color: #f2f2f2;
+}
+
+/* 로딩 */
+.progress {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.progress .progress-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 6vw;
+}

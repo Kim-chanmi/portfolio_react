@@ -1,0 +1,176 @@
+/* header */
+#header {
+  position: fixed;
+  left: 0;
+  top: -20vw;
+  width: 100vw;
+  /* height: 4vw; */
+  padding: 1.4vw 2.2vw;
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  justify-content: space-between;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-size: 1vw;
+  font-weight: 700;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+#header h1 {
+  font-size: 1vw;
+  font-weight: 700;
+  color: #fff;
+  padding: 0 2vw;
+  position: relative;
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+}
+
+#header h1 a {
+  color: #fff;
+  cursor: pointer;
+}
+#header nav {
+  padding: 0 2vw;
+  cursor: pointer;
+  position: absolute;
+  top: 1vw;
+  right: 2vw;
+}
+
+#header nav.vertex {
+  display: inline-block;
+  /* background: rgba(0, 0, 0, 0.9); */
+}
+
+/* vertex */
+.vertex {
+  position: relative;
+  text-align: center;
+}
+
+.vertex ul {
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  position: absolute;
+  /* right: -200%; */
+  display: none;
+}
+
+.vertex ul.show {
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* border: 1px solid #f2f2f2; */
+  /* z-index: 99999; */
+}
+
+.vertex ul li a {
+  color: #fff;
+  display: inline-block;
+  font-weight: 200;
+  font-size: 0.9vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.vertex span {
+  position: absolute;
+  display: inline-block;
+  /* width: 100%; */
+  height: 100%;
+}
+.vertex span:nth-child(1) {
+  left: 0;
+}
+.vertex span:nth-child(2) {
+  right: 0;
+}
+.vertex span:nth-child(3) {
+  left: 0;
+}
+.vertex span:nth-child(4) {
+  right: 0;
+}
+.vertex span:nth-child(1):before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.4vw;
+  height: 0.1vw;
+  background: #fe451c;
+}
+.vertex span:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.1vw;
+  height: 0.4vw;
+  background: #fe451c;
+}
+
+.vertex span:nth-child(2):before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0.4vw;
+  height: 0.1vw;
+  background: #fe451c;
+}
+.vertex span:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  right: 0vw;
+  top: 0;
+  width: 0.1vw;
+  height: 0.4vw;
+  background: #fe451c;
+}
+
+.vertex span:nth-child(3):before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0.4vw;
+  height: 0.1vw;
+  background: #fe451c;
+}
+.vertex span:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  left: 0vw;
+  bottom: 0;
+  width: 0.1vw;
+  height: 0.4vw;
+  background: #fe451c;
+}
+
+.vertex span:nth-child(4):before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0.4vw;
+  height: 0.1vw;
+  background: #fe451c;
+}
+.vertex span:nth-child(4)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0.1vw;
+  height: 0.4vw;
+  background: #fe451c;
+}
+
+#header nav {
+  color: #fff;
+}
