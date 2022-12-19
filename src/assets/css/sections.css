@@ -1103,6 +1103,7 @@ circle.circle {
 .sec6 {
   width: 100%;
   padding: 16vw 2.2vw 0 2.2vw;
+  border-bottom: 1vw solid #fe451c;
 }
 
 .sec6__title {

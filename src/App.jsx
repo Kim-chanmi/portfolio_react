@@ -5,16 +5,14 @@ import Main from "./components/pages/Main";
 import lenis from "./components/utils/lenis";
 import mainHeader from "./components/utils/mainHeader";
 import menu from "./components/utils/menu";
-// import imgLoader from "./components/utils/imgLoader";
-// import section from "./components/utils/section";
+import section from "./components/utils/section";
 
 function App() {
   useEffect(() => {
     lenis();
     mainHeader();
     menu();
-    // imgLoader();
-    // section();
+    section();
   }, []);
   return (
     <BrowserRouter>

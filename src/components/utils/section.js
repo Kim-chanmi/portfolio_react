@@ -1,8 +1,9 @@
 import ScrollTrigger from "gsap/ScrollTrigger";
 import gsap from "gsap";
+gsap.registerPlugin(ScrollTrigger);
 
 const section = () => {
-  gsap.registerPlugin(ScrollTrigger);
+  // gsap.registerPlugin(ScrollTrigger);
   // 헤더
   ScrollTrigger.create({
     // 어디에 닿으면 반응할건지
@@ -94,7 +95,6 @@ const section = () => {
           scrub: 1,
           stagger: 0.1,
           ease: "power1.out",
-          markers: true,
         }
       );
   });
@@ -127,11 +127,11 @@ const section = () => {
       trigger: ".sec4__title",
       scrub: 1,
       animation: gsap.fromTo(
-        ".sec4",
+        ".sec4__inner",
         {
-          scale: (1.4, 1.4),
+          scale: (0.4, 0.4),
           opacity: 0,
-          transformOrigin: "1300px 18px",
+          transformOrigin: "1000px 18px",
           transform: "translate(0,50px)",
           filter: "blur(5px)",
         },
@@ -139,7 +139,7 @@ const section = () => {
           scale: 1,
           opacity: 1,
           transformOrigin: "50% 0%",
-          transform: "translate3d(0,-30px,0)",
+          transform: "translate3d(0,-10px,0)",
           filter: "blur(0px)",
         }
       ),
@@ -155,7 +155,7 @@ const section = () => {
       animation: gsap.fromTo(
         ".sec5",
         {
-          scale: (1.2, 1.2),
+          scale: (0.8, 0.8),
           opacity: 0,
           transform: "translate(0,50px)",
           transformOrigin: "1300px 18px",
@@ -171,28 +171,28 @@ const section = () => {
   });
 
   // contact me
-  let mm5 = gsap.matchMedia();
-  mm5.add("(min-width: 1000px)", () => {
-    ScrollTrigger.create({
-      trigger: ".sec6__inner",
-      scrub: 1,
-      animation: gsap.fromTo(
-        ".sec6__inner",
-        {
-          scale: (1.1, 1.1),
-          // opacity: 0,
-          transform: "translate(0,50px)",
-          transformOrigin: "1300px 18px",
-        },
-        {
-          scale: 1,
-          // opacity: 1,
-          transform: "translate3d(0,-30px,0)",
-          transformOrigin: "50% 0%",
-        }
-      ),
-    });
-  });
+  // let mm5 = gsap.matchMedia();
+  // mm5.add("(min-width: 1000px)", () => {
+  //   ScrollTrigger.create({
+  //     trigger: ".sec6__inner",
+  //     scrub: 1,
+  //     animation: gsap.fromTo(
+  //       ".sec6__inner",
+  //       {
+  //         scale: (0.9, 0.9),
+  //         // opacity: 0,
+  //         transform: "translate(0,50px)",
+  //         transformOrigin: "1300px 18px",
+  //       },
+  //       {
+  //         scale: 1,
+  //         // opacity: 1,
+  //         transform: "translate3d(0,-30px,0)",
+  //         transformOrigin: "50% 0%",
+  //       }
+  //     ),
+  //   });
+  // });
 };
 
 export default section;
