@@ -119,12 +119,6 @@ const imgLoader = () => {
       scrollTo(0, 0);
     }, 100);
   };
-
-  // return (
-  //   <div className="progress poppins">
-  //     <span className="progress-text">0</span>
-  //   </div>
-  // );
 };
 
 export default imgLoader;

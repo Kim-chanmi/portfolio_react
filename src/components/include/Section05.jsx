@@ -27,7 +27,7 @@ const Section05 = () => {
           <div className="studyList__inner">
             <div className="studyList">
               <a
-                href="https://kim-chanmi.github.io/codingclassName/html/alphabet.html"
+                href="https://kim-chanmi.github.io/codingclass/html/alphabet.html"
                 target="_blank"
               >
                 <div className="vertex2">
@@ -45,7 +45,7 @@ const Section05 = () => {
             </div>
             <div className="studyList">
               <a
-                href="https://kim-chanmi.github.io/codingclassName/css/index.html"
+                href="https://kim-chanmi.github.io/codingclass/css/index.html"
                 target="_blank"
               >
                 <div className="vertex2">
@@ -62,7 +62,7 @@ const Section05 = () => {
             </div>
             <div className="studyList">
               <a
-                href="https://kim-chanmi.github.io/codingclassName/javascript/index.html"
+                href="https://kim-chanmi.github.io/codingclass/javascript/index.html"
                 target="_blank"
               >
                 <div className="vertex2">
@@ -109,7 +109,7 @@ const Section05 = () => {
             </div>
             <div className="studyList">
               <a
-                href="https://kim-chanmi.github.io/codingclassName/sql/index.html"
+                href="https://kim-chanmi.github.io/codingclass/sql/index.html"
                 target="_blank"
               >
                 <div className="vertex2">
@@ -125,7 +125,7 @@ const Section05 = () => {
             </div>
             <div className="studyList">
               <a
-                href="https://kim-chanmi.github.io/codingclassName/animation/css.html"
+                href="https://kim-chanmi.github.io/codingclass/animation/css.html"
                 target="_blank"
               >
                 <div className="vertex2">
@@ -141,7 +141,7 @@ const Section05 = () => {
             </div>
             <div className="studyList">
               <a
-                href="https://kim-chanmi.github.io/codingclassName/animation/svg.html"
+                href="https://kim-chanmi.github.io/codingclass/animation/svg.html"
                 target="_blank"
               >
                 <div className="vertex2">

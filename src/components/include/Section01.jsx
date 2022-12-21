@@ -11,7 +11,7 @@ const Section01 = () => {
         <div className="tit4">goal-oriented</div>
         <div className="tit5">FRONT-END DEVELOPER</div>
         <div className="tit6 split">Kim chanmi</div>
-        <canvas id="canvas"></canvas>
+        {/* <canvas id="canvas"></canvas> */}
       </div>
     </section>
   );

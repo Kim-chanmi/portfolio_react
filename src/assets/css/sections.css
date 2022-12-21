@@ -879,7 +879,7 @@ circle.circle {
 
 .effect {
   float: right;
-  font-size: 1vw;
+  font-size: 1.2vw;
   padding-bottom: 1.2vw;
   text-align: right;
   width: 66%;
@@ -943,7 +943,7 @@ circle.circle {
 
 .study {
   float: right;
-  font-size: 1vw;
+  font-size: 1.2vw;
   padding-bottom: 1.2vw;
   text-align: right;
   width: 80%;
@@ -1140,7 +1140,7 @@ circle.circle {
   flex-direction: column;
   flex-wrap: wrap;
   line-height: 1.8;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .contactMe__list ul li a {
@@ -1180,14 +1180,14 @@ circle.circle {
 }
 
 .contactMe__cont .contDesc {
-  font-size: 0.9vw;
+  font-size: 1.2vw;
   line-height: 1.6;
   margin-bottom: 2vw;
 }
 
 .contactMe__cont .cont {
   line-height: 1.6;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .contactMe__ment {

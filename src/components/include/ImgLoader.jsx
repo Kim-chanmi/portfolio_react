@@ -113,7 +113,7 @@ const ImgLoader = () => {
       }
     }
     loading();
-  });
+  }, []);
 
   return (
     <>

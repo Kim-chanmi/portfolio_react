@@ -21,25 +21,26 @@ const section = () => {
     ),
   });
 
-  //   // 가로모드
-  //   const sections = gsap.utils.toArray(".sec3-1"); // 다중이 == querySelectorAll
+  // 가로모드
+  const sections = gsap.utils.toArray(".sec3-1"); // 다중이 == querySelectorAll
 
-  //   ScrollTrigger.matchMedia({
-  //     "(min-width: 1024px)": function () {
-  //       gsap.to(sections, {
-  //         xPercent: -100 * (sections.length - 1),
-  //         ease: "none",
-  //         scrollTrigger: {
-  //           trigger: ".horizontalWrap",
-  //           pin: true,
-  //           scrub: 1,
-  //           end: "+=3000", //speed
-  //           //   markers: true,
-  //         },
-  //       });
-  //     },
-  //   });
+  ScrollTrigger.matchMedia({
+    "(min-width: 1024px)": function () {
+      gsap.to(sections, {
+        xPercent: -100 * (sections.length - 1),
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".horizontalWrap",
+          pin: true,
+          scrub: 1,
+          end: "+=3000", //speed
+          //   markers: true,
+        },
+      });
+    },
+  });
 
+  // 메뉴 목록
   ScrollTrigger.create({
     // 어디에 닿으면 반응할건지
     trigger: ".sec4",

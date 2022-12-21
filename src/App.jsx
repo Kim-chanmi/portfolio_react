@@ -6,6 +6,7 @@ import lenis from "./components/utils/lenis";
 import mainHeader from "./components/utils/mainHeader";
 import menu from "./components/utils/menu";
 import section from "./components/utils/section";
+// import canvas from "./components/utils/canvas";
 
 function App() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function App() {
     mainHeader();
     menu();
     section();
+    // canvas();
   }, []);
   return (
     <BrowserRouter>
